@@ -1,0 +1,52 @@
+footer{
+    position: relative;
+    padding: 40px 10vw;
+    width: 100%;
+    padding-bottom: 80px;
+    background: #383838;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-content .logo{
+    height: 120px;
+}
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.category{
+    display: grid;
+    list-style:circle;
+}
+.category-title{
+    color: white;
+    font-size: 25px;
+}
+.category .footer-link{
+    text-decoration: none;
+    color: aqua;
+}
+.footer-link:hover{
+    color: white;
+}
+.info-footer{
+    display: grid;
+    list-style:circle;
+}
+.info-footer .footer-link{
+    text-decoration: none;
+    color: aqua;
+}
+.pay-methods{
+    margin-top: 50px;
+}
+.pay-methods .pay-title{
+   margin-right: 10px;
+   color: white;
+   font-size: 20px;
+}
